@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good vibes form</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      body {
+        background-color: #f3f2f1;
+      }
+
+      h1 {
+        margin: 27px;
+      }
+
+      .container {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .form_group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        flex-direction: column;
+        margin: 30px;
+        height: 40vh;
+        width: 100vh;
+        padding: 30px;
+        border-radius: 7px;
+        color: rgb(8, 7, 7);
+        border: 1px solid black;
+      }
+
+      .form_group input {
+        width: 40vw;
+        border: 2px solid black;
+        margin: 15px 15px;
+        padding: 8px 5px;
+        border-radius: 5px;
+        font-size: 17px;
+      }
+
+      .form_group label {
+        margin: 5px;
+        padding: 5px;
+        font-size: 23px;
+      }
+
+      .btn {
+        border: 2px solid black;
+        margin: 15px 15px;
+        padding: 8px 5px;
+        border-radius: 5px;
+        font-size: 17px;
+        display: block;
+        width: 30%;
+        margin: 10px auto;
+        color: white;
+      }
+
+      #submitbtn {
+        background-color: #198754;
+        border: 2px solid #198754;
+      }
+      #submitbtn:hover {
+        background-color: #126a41;
+        border: 2px solid #198754;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="form_group" action="#">
+        <div>
+          <label for="Email">Email:</label>
+          <input
+            type="email"
+            name=""
+            id="Email"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+
+        <button class="btn" id="submitbtn" type="submit">Enter</button>
+      </form>
+    </div>
+  </body>
+</html>
